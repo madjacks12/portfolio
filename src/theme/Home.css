@@ -5,6 +5,8 @@ font-style: normal;
 font-weight: 200;
 }
 
+
+
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -12,11 +14,43 @@ font-weight: 200;
 
 
 body {
-  margin: 0;
-  padding: 0;
+
+
+}
+
+html {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+
 }
 
 h1 {
+  flex: 1;
+  text-align: center;
     font-family: 'Lazer84';
     font-weight: 200;
+    color: #F090C0;
+    font-size: 80pt;
+    letter-spacing: 6px;
+}
+
+h2 {
+  flex: 1;
+  margin-top: -50px;
+  font-family: 'Lato';
+  text-align: center;
+  font-size: 40pt;
+  color:  #18C0F0;
+
+}
+
+h3 {
+  flex: 1;
+  margin-top: 100px;
+  font-family: 'Lato';
+  text-align: center;
+  font-size: 60pt;
+  color:  #F090C0;
+
 }
