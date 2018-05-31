@@ -14,8 +14,7 @@ font-weight: 200;
 
 
 body {
-
-
+background-image: url('./nightSky.jpg');
 }
 
 html {
@@ -27,30 +26,33 @@ html {
 
 h1 {
   flex: 1;
+  z-index: 1;
   text-align: center;
     font-family: 'Lazer84';
     font-weight: 200;
-    color: #F090C0;
-    font-size: 80pt;
+    color: #FF69B4;
+    transform: rotate(-3deg);
+    font-size: 90pt;
     letter-spacing: 6px;
 }
 
 h2 {
   flex: 1;
-  margin-top: -50px;
+  margin-top: 220px;
   font-family: 'Lato';
   text-align: center;
-  font-size: 40pt;
-  color:  #18C0F0;
+  font-size: 30pt;
+  font-weight: 250;
+
+  color:   #18C0F0;
 
 }
 
 h3 {
   flex: 1;
-  margin-top: 100px;
   font-family: 'Lato';
   text-align: center;
   font-size: 60pt;
-  color:  #F090C0;
+  color:	white;
 
 }
