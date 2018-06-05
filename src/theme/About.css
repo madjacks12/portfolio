@@ -20,6 +20,17 @@
 
 }
 
+#stroke {
+  transform: rotate(72deg);
+}
+#aboutLine {
+  margin-top: -22vh;
+  font-size: 200px;
+  color: yellow;
+  transform: scale(.5, 1);
+}
+
+
 p {
 	margin-top: -20vh;
 	margin-right: 10vw;

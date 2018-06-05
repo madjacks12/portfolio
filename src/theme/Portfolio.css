@@ -10,10 +10,10 @@ h1 {
 }
 
 #stroke {
-  transform: rotate(65deg);
+  transform: rotate(72deg);
 }
 #line {
-  margin-top: -20vh;
+  margin-top: -22vh;
   font-size: 200px;
   color: red;
   transform: scale(.5, 1);
