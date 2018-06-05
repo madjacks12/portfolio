@@ -1,6 +1,7 @@
 import React, {Component, PropTypes} from 'react';
 import './../theme/Home.css';
 import Typing, {Cursor} from 'react-typing-animation';
+import About from './About.js';
 
 export default class  Home extends Component {
 
@@ -16,8 +17,6 @@ export default class  Home extends Component {
     return (
       <div>
         <h1>Matt Jackson</h1>
-
-
           <Typing loop speed={80}>
             <h3>Java
             <Typing.Delay ms={1000} />
@@ -43,7 +42,6 @@ export default class  Home extends Component {
           </Typing>
         <h2>Full-Stack Developer</h2>
       </div>
-
     );
   }
 }

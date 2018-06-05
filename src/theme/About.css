@@ -6,6 +6,7 @@ font-weight: 200;
 }
 
 
+
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -13,12 +14,14 @@ font-weight: 200;
 
 
 body {
-background-image: url('./nightSky.jpg');
-background-size: cover;
-
+background-color: blue;
 }
 
 html {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+
 }
 
 h1 {
