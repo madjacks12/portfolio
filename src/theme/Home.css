@@ -14,45 +14,56 @@ font-weight: 200;
 
 
 body {
-background-image: url('./nightSky.jpg');
+  position: relative;
+  margin: 0;
 }
-
 html {
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: contain;
-
+  margin: 0;
 }
 
-h1 {
+#splash {
+  background-image: url('./nightSky.jpg');
+  background-size:cover;
+  position:relative;
+  height:102vh;
+  margin: 0;
+}
+
+
+#matt {
   flex: 1;
   z-index: 1;
+  margin-top: -1vw;
+  padding-top: 5vw;
+  overflow-x: hidden;
   text-align: center;
     font-family: 'Lazer84';
     font-weight: 200;
     color: #FF69B4;
     transform: rotate(-3deg);
-    font-size: 90pt;
+    font-size: 70px;
     letter-spacing: 6px;
+    width: 100%;
 }
 
 h2 {
-  flex: 1;
-  margin-top: 220px;
   font-family: 'Lato';
   text-align: center;
-  font-size: 30pt;
-  font-weight: 250;
-
-  color:   #18C0F0;
-
+  font-size: 40px;
+  font-weight: 300;
+  width: 100%;
+  color: #01cdfe;
 }
 
 h3 {
   flex: 1;
+  display: flex;
+  justify-content: center;
   font-family: 'Lato';
   text-align: center;
-  font-size: 60pt;
+  font-size: 60px;
   color:	white;
-
+  width: 100%;
+  padding-top: 10%;
+  padding-bottom: 10vh;
 }

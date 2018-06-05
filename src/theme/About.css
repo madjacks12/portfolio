@@ -1,0 +1,41 @@
+#container {
+
+}
+
+
+
+#about {
+	padding-top: 10vh;
+	font-family: "Lazer84";
+  flex: 1;
+  z-index: 1;
+  text-align: center;
+  font-weight: 100;
+	font-kerning: 40;
+  color: #481f91;
+  font-size: 10vw;
+  letter-spacing: 8px;
+	font-size: 50pt;
+	background-color: black;
+
+}
+
+p {
+	margin-top: -20vh;
+	margin-right: 10vw;
+	margin-left: 10vw;
+	padding-left: 10vw;
+	padding-right: 10vw;
+	padding-bottom: 10vh;
+	text-align: center;
+	color: white;
+	font-family: 'Lato';
+	margin-top: 0px;
+	font-size: 14pt;
+}
+
+
+
+body {
+	background-color:	black;
+}

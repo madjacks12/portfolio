@@ -1,0 +1,20 @@
+h1 {
+  text-align: center;
+    font-family: 'Lazer84';
+    font-weight: 200;
+    color: #01cdfe;
+    transform: rotate(-3deg);
+    font-size: 70px;
+    letter-spacing: 6px;
+    width: 100%;
+}
+
+#stroke {
+  transform: rotate(65deg);
+}
+#line {
+  margin-top: -20vh;
+  font-size: 200px;
+  color: red;
+  transform: scale(.5, 1);
+}
