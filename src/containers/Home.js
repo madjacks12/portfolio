@@ -3,7 +3,7 @@ import './../theme/Home.css';
 import Typing, {Cursor} from 'react-typing-animation';
 import About from './About.js';
 
-export default class  Home extends Component {
+export default class Home extends Component {
 
   state = {
     showFeatures: false,
@@ -15,8 +15,8 @@ export default class  Home extends Component {
 
   render() {
     return (
-      <div>
-        <h1>Matt Jackson</h1>
+      <div id="splash">
+        <h1 id="matt">Matt Jackson</h1>
           <Typing loop speed={80}>
             <h3>Java
             <Typing.Delay ms={1000} />
@@ -39,7 +39,7 @@ export default class  Home extends Component {
             <Typing.Backspace count={7} speed={80}  />
             <Typing.Delay ms={1000} />
             </h3>
-          </Typing>
+        </Typing>
         <h2>Full-Stack Developer</h2>
       </div>
     );
