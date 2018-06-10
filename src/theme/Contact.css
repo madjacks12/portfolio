@@ -1,18 +1,59 @@
-h1 {
-    text-align: center;
-      font-family: 'Lazer84';
-      font-weight: 200;
-      color: #01cdfe;
-      transform: rotate(-3deg);
-      font-size: 70px;
-      letter-spacing: 6px;
-      width: 100%;
-  }
-  
-  #stroke {
-    transform: rotate(72deg);
+#contact-container {
+margin-top: -8vh;
+
+  transform: rotate(0deg);
+  background: gray; /* For browsers that do not support gradients */
+  background: linear-gradient(to bottom, rgba(128,128,128,1), rgba(255,255,255, 1)); /* Standard syntax (must be last) */
+}
+
+#contact-h1 {
+  text-align: center;
+  font-family: 'Lazer84';
+  font-weight: 200;
+  color: #01cdfe;
+  transform: rotate(-3deg);
+  font-size: 70px;
+  letter-spacing: 6px;
+  width: 102%;
   }
 
-  .social {
-    
-  }
+#contact-h1 {
+
+
+}
+
+#contact-h3 {
+    margin-top: -40vh;
+    margin-bottom: -5vh;
+    color: black;
+}
+
+h4 {
+  text-align: center;
+  color: #669999;
+  font-family: 'Lato';
+  margin-bottom: 20vh;
+  font-size: 18pt;
+}
+
+#stroke {
+  transform: rotate(72deg);
+}
+
+.social {
+  text-align: center;
+  padding-bottom: 20vh;
+}
+
+.social-img {
+  margin: 0 auto;
+  display: inline-block;
+
+
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  height: 100px;
+  width: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+}

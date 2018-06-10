@@ -6,6 +6,7 @@ import routes from './routes';
 import registerServiceWorker from './registerServiceWorker';
 import "typeface-lato";
 
+
 ReactDOM.render(
   routes,
   document.getElementById('root')

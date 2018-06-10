@@ -8,7 +8,7 @@ export default class Portfolio extends Component {
     return (
       <div id="portfolio-container">
         <div id="header-spacing" />
-        <h1>Portfolio</h1>
+        <h1>Projects</h1>
         <div id="stroke">
           <h1 id="line">I</h1>
         </div>

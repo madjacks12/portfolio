@@ -20,18 +20,17 @@
   letter-spacing: 8px;
 	font-size: 50pt;
 	background-color: black;
-
 }
 
 #portrait {
-  background-image: url('./../theme/portrait.png'); 
+  background-image: url('./../theme/portrait.png');
 }
 
 #stroke {
   transform: rotate(72deg);
 }
 #aboutLine {
-  margin-top: -18vh;
+  margin-top: -23vh;
   font-size: 200px;
   color: yellow;
   transform: scale(.5, 1);
@@ -59,13 +58,13 @@ p {
 
 #above-text{
   margin-top: -20vh;
-  padding-left: 10vh;
-  padding-right: 10vh;
+  padding-left: 20vw;
+  padding-right: 20vw;
 }
 
 #below-text {
-  padding-left: 10vh;
-  padding-right: 10vh;
+  padding-left: 20vw;
+  padding-right: 20vw;
   margin-bottom: 20vh;
 }
 
