@@ -9,17 +9,17 @@ font-weight: 200;
 body {
   position: relative;
   margin: 0;
-  overflow-x: hidden;
+  overflow-x: auto;
 }
 html {
   margin: 0;
-  overflow-x: hidden;
+  overflow-x: auto;
 }
 
 /* The navigation bar */
 .navbar {
     z-index: 2;
-    overflow: hidden;
+    overflow: auto;
     background-color: rgba(8, 10, 10, 0.5);
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
@@ -62,7 +62,7 @@ html {
   z-index: 1;
   margin-top: -1vw;
   padding-top: 7vw;
-  overflow-x: hidden;
+  overflow-x: auto;
   text-align: center;
     font-family: 'Lazer84';
     font-weight: 200;

@@ -1,5 +1,8 @@
 import React, {Component, PropTypes} from 'react';
 import './../theme/Portfolio.css';
+import Fade from 'react-reveal/Fade';
+import Slide from 'react-reveal/Slide';
+import Flip from 'react-reveal/Flip';
 
 
 export default class Portfolio extends Component {
@@ -8,9 +11,17 @@ export default class Portfolio extends Component {
     return (
       <div id="portfolio-container">
         <div id="header-spacing" />
-        <h1>Projects</h1>
-        <div id="stroke">
-          <h1 id="line">I</h1>
+        <div class="rotated-h1">
+          <Fade bottom delay={500}>
+          <h1>Projects</h1>
+          </Fade>
+        </div>
+        <div class="rotated">
+          <Fade bottom delay={1750}>
+          <div id="stroke">
+            <h1 id="line">I</h1>
+          </div>
+          </Fade>
         </div>
         <div class="wrapper">
         <div class="box a">

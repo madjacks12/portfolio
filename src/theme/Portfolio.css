@@ -21,11 +21,19 @@ h1 {
     width: 102%;
 }
 
+.rotated {
+  transform: rotate(72deg);
+}
+.rotated-h1 {
+  transform: rotate(-4deg);
+}
+
+
 #stroke {
   transform: rotate(72deg);
 }
 #line {
-  margin-top: -23vh;
+  margin-top: -170px;
   font-size: 200px;
   color: red;
   transform: scale(.5, 1);
