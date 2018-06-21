@@ -28,7 +28,7 @@ export default class Contact extends Component {
               </Bounce>
               <Bounce right delay={1000}>
                 <h4>
-               Send me an email at mdjacksondev@gmail.com or connect via social media.</h4>
+               Send me an email at <a class="mail" href="mailto:mdjacksondev@gmail.com">mdjacksondev@gmail.com </a>or connect via social media.</h4>
               </Bounce>
             </div>
               <div class="social">

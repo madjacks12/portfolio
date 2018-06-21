@@ -4,7 +4,7 @@ import Typing, {Cursor} from 'react-typing-animation';
 import Fade from 'react-reveal/Fade';
 import Flip from 'react-reveal/Flip';
 
-export default class About extends Component {
+export default class About extends React.Component {
 
   state = {
   }
@@ -13,17 +13,27 @@ export default class About extends Component {
   this.setState({ showFeatures: true });
 };
 
+componentDidMount() {
+  this.props.onRef(this)
+}
+componentWillUnmount() {
+  this.props.onRef(undefined)
+}
+method() {
+  this.node.scrollIntoView({ block: 'start',  behavior: 'smooth' });
+}
+
 
   render() {
     return (
       <div>
-        <div id="gradient" />
-        <div class="rotated-h1">
-          <Fade top>
+        <div id="gradient" ref={node => this.node = node} />
+        <div className="rotated-h1" >
+          <Fade top delay={1000}>
             <h1 id="about">About Me</h1>
           </Fade>
         </div>
-        <div class="rotated">
+        <div className="rotated">
           <Fade bottom delay={1000}>
           <div id="stroke">
             <h1 id="aboutLine">I</h1>

@@ -52,6 +52,14 @@ h4 {
   padding-left: 40px;
 }
 
+.mail {
+  text-align: center;
+  color: #669999;
+  font-family: 'Lato';
+  margin-bottom: 20vh;
+  font-size: 18pt;
+}
+
 #inner {
   height: 150px;
   width: 150px;

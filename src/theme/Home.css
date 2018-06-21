@@ -45,7 +45,7 @@ html {
 
 /* Main content */
 .main {
-    margin-top: 30px; /* Add a top margin to avoid content overlay */
+    margin-top: 0px; /* Add a top margin to avoid content overlay */
 }
 
 #splash {
@@ -60,8 +60,8 @@ html {
 #matt {
   flex: 1;
   z-index: 1;
-  margin-top: -1vw;
-  padding-top: 7vw;
+  margin-top: 0;
+  padding-top: 70px;
   overflow-x: auto;
   text-align: center;
     font-family: 'Lazer84';

@@ -16,12 +16,6 @@ export default class Home extends Component {
   render() {
     return (
       <div id="splash">
-        <div class="navbar">
-          <p class="nav-item">Home</p>
-          <p class="nav-item">About</p>
-          <p class="nav-item">Work</p>
-          <p class="nav-item">Contact</p>
-        </div>
         <h1 id="matt">Matt Jackson</h1>
           <Typing loop speed={80}>
             <h3>Java
