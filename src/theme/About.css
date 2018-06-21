@@ -29,8 +29,12 @@
 #stroke {
 }
 
+#dummy {
+  margin-bottom: 5vw;
+}
+
 #aboutLine {
-  margin-top: -160px;
+  margin-top: -170px;
   font-size: 200px;
   color: yellow;
   transform: scale(.5, 1);

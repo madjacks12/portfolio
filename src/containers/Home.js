@@ -13,9 +13,19 @@ export default class Home extends Component {
   this.setState({ showFeatures: true });
 };
 
+componentDidMount() {
+  this.props.onRef(this)
+}
+componentWillUnmount() {
+  this.props.onRef(undefined)
+}
+method() {
+  this.node.scrollIntoView({ block: 'start',  behavior: 'smooth' });
+}
+
   render() {
     return (
-      <div id="splash">
+      <div id="splash" ref={node => this.node = node}>
         <h1 id="matt">Matt Jackson</h1>
           <Typing loop speed={80}>
             <h3>Java

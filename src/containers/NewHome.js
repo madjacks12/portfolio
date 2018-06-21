@@ -14,30 +14,38 @@ export default class  NewHome extends Component {
     this.myRef = React.createRef();
   }
 
-  onClick = () => {
-    this.child.method() // do stuff
+  aboutScroll = () => {
+    this.aboutChild.method() // do stuff
   }
 
-  componentDidMount() {
-    scrollToComponent(this.Blue, { offset: 0, align: 'middle', duration: 500, ease:'inCirc'});
+  portfolioScroll = () => {
+    this.portfolioChild.method() // do stuff
   }
+
+  contactScroll = () => {
+    this.contactChild.method() // do stuff
+  }
+
+  homeScroll = () => {
+    this.homeChild.method() // do stuff
+  }
+
 
   render() {
     return(
       <div id="container">
         <div className="navbar">
-          <p className="nav-item">Home</p>
-          <p className="nav-item">About</p>
-          <button onClick={this.onClick}>Child.method()</button>
-          <p className="nav-item">Work</p>
-          <p className="nav-item">Contact</p>
+          <p className="nav-item" onClick={this.homeScroll}>Home</p>
+          <p className="nav-item" onClick={this.aboutScroll}>About</p>
+          <p className="nav-item" onClick={this.portfolioScroll}>Work</p>
+          <p className="nav-item" onClick={this.contactScroll}>Contact</p>
         </div>
-        <Home>
+        <Home onRef={ref => (this.homeChild = ref)}>
         </Home>
-        <About onRef={ref => (this.child = ref)}>
+        <About onRef={ref => (this.aboutChild = ref)}>
         </About>
-        <Portfolio></Portfolio>
-        <Contact></Contact>
+        <Portfolio onRef={ref => (this.portfolioChild = ref)}></Portfolio>
+        <Contact onRef={ref => (this.contactChild = ref)}></Contact>
       </div>
     );
   }

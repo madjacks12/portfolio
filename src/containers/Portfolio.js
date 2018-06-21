@@ -7,12 +7,27 @@ import Flip from 'react-reveal/Flip';
 
 export default class Portfolio extends Component {
 
+  state = {
+  }
+  showFeatures = () => {
+  this.setState({ showFeatures: true });
+};
 
-  
+componentDidMount() {
+  this.props.onRef(this)
+}
+componentWillUnmount() {
+  this.props.onRef(undefined)
+}
+method() {
+  this.node.scrollIntoView({ block: 'start',  behavior: 'smooth' });
+}
+
   render() {
     return (
       <div id="portfolio-container">
-        <div id="header-spacing" />
+        <div id="header-spacing"  />
+        <div id="dummy" ref={node => this.node = node} />
         <div className="rotated-h1">
           <Fade bottom delay={500}>
           <h1>Projects</h1>

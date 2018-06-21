@@ -8,7 +8,6 @@ export default class About extends React.Component {
 
   state = {
   }
-
   showFeatures = () => {
   this.setState({ showFeatures: true });
 };
@@ -27,8 +26,9 @@ method() {
   render() {
     return (
       <div>
-        <div id="gradient" ref={node => this.node = node} />
-        <div className="rotated-h1" >
+        <div id="gradient"  />
+        <div id="dummy" ref={node => this.node = node} />
+        <div className="rotated-h1"  >
           <Fade top delay={1000}>
             <h1 id="about">About Me</h1>
           </Fade>

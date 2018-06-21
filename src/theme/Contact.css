@@ -1,5 +1,5 @@
 #contact-container {
-margin-top: -8vh;
+margin-top: 0vh;
 
   transform: rotate(0deg);
   background: gray; /* For browsers that do not support gradients */
@@ -17,6 +17,11 @@ margin-top: -8vh;
   width: 102%;
   word-spacing: -45px;
   }
+
+  #contactDummy {
+    padding-bottom: 5vh;
+  }
+
 
 #contact-h3 {
     margin-top: -40vh;

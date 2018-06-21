@@ -7,9 +7,20 @@ import Bounce from 'react-reveal/Bounce';
 
 export default class Contact extends Component {
 
+  componentDidMount() {
+    this.props.onRef(this)
+  }
+  componentWillUnmount() {
+    this.props.onRef(undefined)
+  }
+  method() {
+    this.node.scrollIntoView({ block: 'start',  behavior: 'smooth' });
+  }
+
     render() {
       return (
         <div id="contact-container">
+          <div id="contactDummy" ref={node => this.node = node} />
           <div class="rotated-h1">
             <Fade bottom>
               <h1 id="contact-h1">Cont act</h1>
