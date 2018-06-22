@@ -29,27 +29,27 @@ method() {
         <div id="gradient"  />
         <div id="dummy" ref={node => this.node = node} />
         <div className="rotated-h1"  >
-          <Fade top delay={1000}>
+          <Fade top delay={10}>
             <h1 id="about">About Me</h1>
           </Fade>
         </div>
         <div className="rotated">
-          <Fade bottom delay={1000}>
+          <Fade bottom delay={1200}>
           <div id="stroke">
             <h1 id="aboutLine">I</h1>
           </div>
           </Fade>
         </div>
             <div id="container">
-              <Fade right  delay={500}>
+              <Fade right  delay={700}>
                 <div id="above-text">
                   <p>Im an AWS certified developer and Cloud Solutions Architect specializing in mobile development with Android and React Native. Im just as comfortable building engaging front-end UIs and animations as I am building a scalable back-end.</p> 
                 </div>
               </Fade>
-              <Flip left delay={1000}>
+              <Flip left delay={1100}>
                 <img src={require('./../theme/portrait.png')} algin="center" />
               </Flip>
-              <Fade top  delay={1000}>
+              <Fade top delay={1200}>
                 <div id="below-text">
                   <p>After a career in digital marketing and film, I graduated from one of the top coding bootcamps in Portland, OR and am seeking new opportunities in the Indianapolis, IN area.
                   </p>
